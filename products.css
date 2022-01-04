@@ -1,3 +1,7 @@
 .products{
     margin-bottom: 100px;
 }
+
+.navbar ul{
+    width: 100%;
+}
