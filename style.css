@@ -1,0 +1,291 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    margin-top: 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    width: 150px;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav__item a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.nav__item a:hover {
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    /* background-color: orange; */
+}
+
+.hero__content {
+}
+
+.hero__heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.hero__description {
+}
+
+.hero__cta {
+    padding: 10px 20px;
+    background-color: black;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero__image img {
+    width: 400px;
+}
+
+.features {
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+    margin-bottom: 50px;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    /* background-color: purple; */
+    margin: 10px;
+}
+
+.feature__icon {
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.feature__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.feature__heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.products {
+    /* background-color: gray; */
+    margin-top: 70px;
+}
+
+.products__heading {
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.products__container {
+    display: flex;
+}
+
+.product {
+    margin: 5px 20px;
+    /* background-color: orange; */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+}
+
+.product__image {
+    width: 250px;
+    height: 250px;
+    margin: 20px 0;
+}
+.product__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product__details {
+}
+
+.product__name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.product__price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.product__buttons {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: none;
+}
+
+.btn--buy {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 15px;
+}
+
+.btn--cart {
+    background-color: rgb(216, 216, 216);
+    border: none;
+}
+
+
+
+
+
+.subimage {
+    /* width: 100vw; */
+    margin: 50px 0;
+    margin-bottom: 0;
+}
+
+.subimage img{
+    width: 100%;
+    height : 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+.footer__fullwidth{
+    background-color: black;
+}
+
+footer{
+    padding: 50px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+        background-color: black;
+    color: white;
+}
+
+.footer__logo img{
+    width: 200px;
+}
+
+.footer__navitems{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__heading{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer__navitem{
+    margin: 0;
+    margin: 10px 0;
+}
+
+.footer__navitem a{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__links{
+    margin-left: 100px;
+}
+
+.footer__contact{
+    margin-top: 30px;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.form input{
+    padding: 5px 5px;
+    border: none;
+}
+
+.form button{
+    padding: 5px 10px;
+    margin-left: -10px;
+    border: none;
+    background-color: #383838;
+    color: white;
+}
+
+.footer__contact p:nth-child(2){
+    margin-top: 11px;
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(199, 199, 199, 0.377);
+    font-size: 14px;
+}
