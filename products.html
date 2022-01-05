@@ -20,40 +20,48 @@
 
     <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="products.css">
+
+
     <style>
         svg {
             display: block;
             height: 100px;
             width: 100pxvw;
             color: #4bca71;
-            /* SVG path use currentColor to inherit this */
         }
-    
+
         .circle {
             stroke-dasharray: 76;
             stroke-dashoffset: 76;
             -webkit-animation: draw 1s forwards;
             animation: draw 1s forwards;
         }
-    
+
         .tick {
             stroke-dasharray: 18;
             stroke-dashoffset: 18;
             -webkit-animation: draw 1s forwards 1s;
             animation: draw 1s forwards 1s;
         }
-    
+
         @-webkit-keyframes draw {
             to {
                 stroke-dashoffset: 0;
             }
         }
-    
+
         @keyframes draw {
             to {
                 stroke-dashoffset: 0;
             }
+        }
+
+        .products {
+            margin-bottom: 100px;
+        }
+
+        .navbar ul {
+            width: 100%;
         }
     </style>
 </head>
@@ -89,6 +97,7 @@
             </nav>
         </header>
 
+        <!-- product modal -->
         <div class="modal fade" id="product" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -97,13 +106,12 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        The item you selected was confirmed for you. Please contact our customer care for shipping
-                        details.
+                        The item you selected was confirmed for you. Please contact our customer care for dispatching.
                         <br><br>
                         <div class="d-flex align-items-center justify-content-center">
                             <svg viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
-                                <g stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"
-                                    stroke-linejoin="round">
+                                <g stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd"
+                                    stroke-linecap="round" stroke-linejoin="round">
                                     <path class="circle"
                                         d="M13 1C6.372583 1 1 6.372583 1 13s5.372583 12 12 12 12-5.372583 12-12S19.627417 1 13 1z" />
                                     <path class="tick" d="M6.5 13.5L10 17 l8.808621-8.308621" />
@@ -118,7 +126,7 @@
             </div>
         </div>
 
-
+        <!-- products -->
         <div class="products">
             <h1 class="products__heading">Our Products</h1>
             <div class="products__container">
@@ -171,8 +179,7 @@
         </div>
     </div>
 
-
-
+    <!-- footer -->
     <div class="footer__fullwidth">
         <footer class="container">
             <div class="footer__logo">

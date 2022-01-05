@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titan watch</title>
+
+    <!-- Google font : poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: poppins, sans-serif;
+        }
+
+        .container {
+            font-family: sans-serif;
+
+        }
+
+        .heading {
+
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            margin-bottom: 40px;
+        }
+
+        .container__section1 {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            text-align: center;
+        }
+
+        .section {
+            margin-left: 40px;
+            width: 250px;
+        }
+
+        .section h3 {
+            margin: 15px 0px;
+        }
+
+        .container__section2 {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .card {
+
+            margin-left: 40px;
+            margin-top: 45px;
+        }
+
+        .card h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        i {
+            color: rgba(145, 132, 132, 0.678);
+            font-size: 30px;
+
+        }
+
+        input {
+            padding: 6px 1px;
+            margin: 2px;
+            width: 450px;
+            outline: none;
+            border: none;
+        }
+
+        textarea {
+            padding: 6px 1px;
+            margin-top: 2px;
+            width: 452px;
+            outline: none;
+            border: none;
+        }
+
+        button {
+            padding: 9px 20px;
+            margin-top: 5px;
+        }
+
+        .contact__heading {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .contact {
+            margin: 100px 0;
+        }
+
+        .container__section1 {
+            margin-bottom: 50px;
+        }
+        input, textarea{
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <div class="logo-container">
+                        <li>
+                            <img src="./images/logo-black.png" alt="Titan Logo" />
+                        </li>
+                    </div>
+                    <div class="nav__items">
+                        <li class="nav__item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./products.html">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./contact.html">Contact Us</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="contact">
+        <div class="heading">
+            <h1 class="contact__heading">Let's Connect</h1>
+        </div>
+        <div class="container__section1">
+            <div class="section one">
+                <img src="./images/icon-map.png" alt="address">
+                <h3>Our main office</h3>
+                <p>SoHo 94 Broadway St New York, NY 1001</p>
+            </div>
+            <div class="section two">
+                <img src="./images/icon-call.png" alt="call">
+                <h3>Contact number</h3>
+                <p>234-9876-5400888-0123-4567 (Toll Free)</p>
+            </div>
+            <div class="section three">
+                <img src="./images/icon-fax.png" alt="fax">
+                <h3>Fax</h3>
+                <p>1-234-567-8900</p>
+            </div>
+            <div class="section four">
+                <img src="./images/icon-mail.png" alt="fax">
+                <h3>Mail</h3>
+                <p>hello@theme.com</p>
+            </div>
+        </div>
+        <div class="container__section2">
+            <div class="card one">
+                <h2>Contact us for dispatching and doubts</h2>
+                <h3>Available 24 hours a day!</h3>
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" />
+                    <br>
+                    <input type="email" id="email" placeholder="Enter a valid email address" />
+                    <br>
+                    <textarea name="comment" id="text" cols="60" rows="5" placeholder="Enter your messege"></textarea>
+                    <br>
+                    <a href="#"><button>submit</button><a>
+                </form>
+            </div>
+            <div class="card two">
+                <h2>We are here</h2>
+                <h3>Mon-Fri 8:30AM- 5PM / Phones are open 24/7</h3>
+                <p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250063.87771607414!2d78.00736011640623!3d11.6768221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf13a097651a3%3A0xf6e450a18f150aac!2sTitan%20World!5e0!3m2!1sen!2sin!4v1641387637208!5m2!1sen!2sin"
+                        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer__fullwidth">
+        <footer class="container">
+            <div class="footer__logo">
+                <img src="./images/logo-white.png" alt="" />
+            </div>
+            <div class="footer__links">
+                <h3 class="footer__heading">Quick links</h3>
+                <ul class="footer__navitems nav__items">
+                    <li class="footer__navitem nav__item">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="footer__navitem nav__item">
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li class="footer__navitem nav__item">
+                        <a href="./products.html">Products</a>
+                    </li>
+                    <li class="footer__navitem nav__item">
+                        <a href="./cart.html">Cart</a>
+                    </li>
+                    <li class="footer__navitem nav__item">
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__subscribe">
+                <h3 class="footer__heading">Subscribe for notifications</h3>
+                <form class="form">
+                    <input type="text" />
+                    <button>Subscribe</button>
+                </form>
+                <div class="footer__contact">
+                    <p>(+91) 98765 12312</p>
+                    <p>support@titanwatches.com</p>
+                </div>
+            </div>
+        </footer>
+        <p class="copyright">&copy; Copyright to Titan Watches</p>
+    </div>
+</body>
+
+</html>

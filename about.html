@@ -16,6 +16,51 @@
     <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="about.css">
+
+    <style>
+        .hero {
+            background: url(./images/about-hero-image.jpg);
+            height: 80vh;
+            background-size: contain;
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            margin-top: 20px;
+            color: white;
+            background-color: black;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .hero__content {
+            position: relative;
+            left: 200px;
+        }
+
+        .hero__description {
+            width: 400px;
+        }
+
+        .hero__cta {
+            background-color: white;
+            color: black;
+        }
+
+        .about__container {
+            margin-bottom: 100px;
+            display: flex;
+        }
+
+        .about p {
+            font-size: 14px;
+        }
+
+        .about__image img {
+            width: 500px;
+            height: 100%;
+            object-fit: contain;
+            margin-left: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -38,9 +83,6 @@
                         <li class="nav__item">
                             <a href="./products.html">Products</a>
                         </li>
-                        <!-- <li class="nav__item">
-                            <a href="./cart.html">Cart</a>
-                        </li> -->
                         <li class="nav__item">
                             <a href="./contact.html">Contact Us</a>
                         </li>
@@ -49,6 +91,8 @@
             </nav>
         </header>
     </div>
+
+    <!-- hero -->
     <div class="hero">
         <div class="hero__content">
             <h1 class="hero__heading">
@@ -63,25 +107,36 @@
             </a>
         </div>
     </div>
+
+    <!-- about -->
     <h1 class="products__heading">About us</h1>
     <div class="about__container container">
         <div class="about">
-            <p>Titan Watches, one of India's leading watch brands that brought about a paradigm shift in the Indian watch market, with
-            the quartz technology and international styling. The brand Titan is committed to offering its consumers watches that
-            represent the compass of their imagination. With it's constantly introduced exciting new collections,that connects with
-            the various facets of deep-rooted human yearnings for self-expression Titan owns over 60% of the domestic market share
-            in the organized watch market.</p>
+            <p>Titan Watches, one of India's leading watch brands that brought about a paradigm shift in the Indian
+                watch market, with
+                the quartz technology and international styling. The brand Titan is committed to offering its consumers
+                watches that
+                represent the compass of their imagination. With it's constantly introduced exciting new
+                collections,that connects with
+                the various facets of deep-rooted human yearnings for self-expression Titan owns over 60% of the
+                domestic market share
+                in the organized watch market.</p>
             <br>
-            
-            <p> The Titan brand architecture comprises of several collections and sub-brands, each of which is a leader in its own
-            space. Notable among them are: Titan Edge - world's slimmest watch, Titan Raga – Made for the bold and beautiful woman
-            of today, Nebula - crafted with solid 18k gold and precious stones. Several other popular collections like Purple,
-            Automatic, Octane, HTSE and Zoop also form a part of the Titan portfolio.
+
+            <p> The Titan brand architecture comprises of several collections and sub-brands, each of which is a leader
+                in its own
+                space. Notable among them are: Titan Edge - world's slimmest watch, Titan Raga – Made for the bold and
+                beautiful woman
+                of today, Nebula - crafted with solid 18k gold and precious stones. Several other popular collections
+                like Purple,
+                Automatic, Octane, HTSE and Zoop also form a part of the Titan portfolio.
             </p>
             <br>
-            <p> The watch division boasts of over 440 exclusive showrooms across 120 cities christened 'World of Titan', placing the
-            brand amongst the largest chains in its category backed by over 740 after-sales-service centres. The division has a
-            world-class design studio that constantly invents new trends in wrist watches.</p>
+            <p> The watch division boasts of over 440 exclusive showrooms across 120 cities christened 'World of Titan',
+                placing the
+                brand amongst the largest chains in its category backed by over 740 after-sales-service centres. The
+                division has a
+                world-class design studio that constantly invents new trends in wrist watches.</p>
             <br>
         </div>
         <div class="about__image">
@@ -89,7 +144,7 @@
         </div>
     </div>
 
-
+    <!-- footer -->
     <div class="footer__fullwidth">
         <footer class="container">
             <div class="footer__logo">
